@@ -2,8 +2,11 @@
 
 </br></br>
 <i>https://colab.research.google.com/drive/1_FAdoDNE2SnyjFUuL9-4RH1IFtozXERU?usp=sharing</i>
+</br>
+</br>
 <b>Task 1</b> – <i>Write TFRecord files to the cloud with Spark 1d. Optimization, experimentation, and discussion</i>
-</br></br>
+</br>
+</br>
 After compiling all our functions in a script file, we parallelize the data pre-processing in Spark using Google Cloud (GC) Dataproc. Three different cluster configurations (with 8vCPUs, SSD capacity = 500GB, and Standard disk capacity = 4096 GB) were tested to run PySpark jobs on the cloud:
 </br>
 </br>
@@ -19,6 +22,8 @@ After compiling all our functions in a script file, we parallelize the data pre-
 In this task we implement code for time measurement to determine the throughput in images per second. We used multiple parameters in parallel with Spark:
 batch_sizes = [8, 16, 32, 64] batch_numbers = [10, 30, 60] num_repetitions = [3]
 
+</br>
+</br>
 <b>Task 3</b> – <i>Machine Learning in the cloud</i>
 </br>
 </br>
